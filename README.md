@@ -57,7 +57,7 @@ finance-ai-assistant/
 │   └── test_chains.py           # Prompt and validation unit tests
 │
 ├── assets/
-│   └── treng.png                # App icon
+│   └── trend.png                # App icon
 │
 ├── .env.example
 ├── requirements.txt
@@ -158,10 +158,10 @@ Tests cover prompt template formatting and input validation logic — no API cal
 
 ## Roadmap
 
-**Phase 1 — Foundation** ✅
+**Phase 1 — Foundation** *(Completed)*
 Stateless LLM chains for Q&A, explanation, and summarization with finance-specific prompt engineering.
 
-**Phase 2 — Conversational Memory** ✅
+**Phase 2 — Conversational Memory** *(Completed)*
 Unified chat interface where all three capabilities share conversation history, enabling natural follow-up questions.
 
 **Phase 3 — RAG** *(Planned)*
