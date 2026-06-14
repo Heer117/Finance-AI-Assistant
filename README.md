@@ -90,7 +90,7 @@ Every message sent to the LLM looks like:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/finance-ai-assistant.git
+git clone https://github.com/Heer117/finance-ai-assistant.git
 cd finance-ai-assistant
 ```
 
@@ -158,16 +158,16 @@ Tests cover prompt template formatting and input validation logic — no API cal
 
 ## Roadmap
 
-**Phase 1 — Foundation**
+**Phase 1 — Foundation** ✅
 Stateless LLM chains for Q&A, explanation, and summarization with finance-specific prompt engineering.
 
-**Phase 2 — Conversational Memory** *(current)*
+**Phase 2 — Conversational Memory** ✅
 Unified chat interface where all three capabilities share conversation history, enabling natural follow-up questions.
 
-**Phase 3 — RAG**
+**Phase 3 — RAG** *(Planned)*
 Upload financial documents (PDFs, reports) and ask questions answered from their actual content using a vector database.
 
-**Phase 4 — Agents and Live Data**
+**Phase 4 — Agents and Live Data** *(Planned)*
 Tool-using agents that fetch live stock prices, perform financial calculations, and search recent news.
 
 ---
