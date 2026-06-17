@@ -4,3 +4,8 @@ langchain-groq
 groq
 streamlit
 python-dotenv
+pypdf
+langchain-huggingface
+sentence-transformers
+langchain-mongodb
+pymongo
