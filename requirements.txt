@@ -1,4 +1,3 @@
-
 # LangChain
 langchain
 langchain-community
@@ -34,5 +33,4 @@ httpx
 # Image handling (for app icon)
 Pillow
 
-# Testing
-pytest
+torch
