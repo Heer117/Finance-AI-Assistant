@@ -1,11 +1,38 @@
+
+# LangChain
 langchain
 langchain-community
 langchain-groq
-groq
-streamlit
-python-dotenv
-pypdf
+langchain-core
 langchain-huggingface
-sentence-transformers
 langchain-mongodb
+
+# LLM & Inference
+groq
+
+# Embeddings
+sentence-transformers
+
+# Vector Database
 pymongo
+
+# PDF Processing
+pypdf
+
+# Streamlit UI
+streamlit
+
+# Environment & Config
+python-dotenv
+
+# Data Validation
+pydantic
+
+# HTTP Client
+httpx
+
+# Image handling (for app icon)
+Pillow
+
+# Testing
+pytest
