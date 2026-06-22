@@ -82,7 +82,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-
 # ── Session state ─────────────────────────────────────────────────────────────
 
 # Conversation histories (per task)
@@ -113,7 +112,6 @@ if "active_chain" not in st.session_state:
 if "active_retriever" not in st.session_state:
     st.session_state.active_retriever = None
 
-
 # ── Chain selection helper ────────────────────────────────────────────────────
 def get_active_chain():
     """
@@ -122,7 +120,6 @@ def get_active_chain():
     Phase 3 (doc)    → RAG-enhanced chain
     """
     return st.session_state.active_chain
-
 
 # ── Shared helpers ────────────────────────────────────────────────────────────
 
@@ -136,7 +133,6 @@ def append_turn(history_key, display_key, user_msg, ai_msg, sources=None):
         response_entry["sources"] = sources
     st.session_state[display_key].append(response_entry)
 
-
 def render_history(display_key):
     for msg in st.session_state[display_key]:
         with st.chat_message(msg["role"]):
@@ -144,7 +140,6 @@ def render_history(display_key):
             if "sources" in msg:
                 with st.expander("Document Sources"):
                     st.markdown(msg["sources"])
-
 
 def ask(history_key, user_message):
     """Invokes the active chain and returns (response, sources_text)."""
@@ -163,7 +158,6 @@ def ask(history_key, user_message):
         sources_text = format_docs(retrieved_docs)
 
     return response, sources_text
-
 
 def show_doc_banner():
     """Shows a small green banner when a document is active."""
@@ -198,7 +192,6 @@ with st.sidebar:
         type=["pdf"],
         label_visibility="collapsed",
     )
-
     col1, col2 = st.columns(2)
     with col1:
         ingest_clicked = st.button(
@@ -317,7 +310,6 @@ With document: answers from your PDF
 
 Built with LangChain · Groq · MongoDB Atlas · Streamlit
         """)
-
 
 # ── Main header ───────────────────────────────────────────────────────────────
 col1, col2 = st.columns([1, 12])
