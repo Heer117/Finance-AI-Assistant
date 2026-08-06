@@ -5,7 +5,9 @@ A conversational AI assistant for finance-related question answering, concept ex
 This is an evolving project. Currently implements **Phase 1 (stateless task execution)** and **Phase 2 (conversational memory)**. Future phases will add document-based retrieval (RAG) and autonomous agents with live financial data.
 
 ---
+## Live Demo
 
+🔗 **Live Demo:** https://finance-ai-assistant-ule5usq2zmervnpp8f7bvk.streamlit.app/
 ## What It Does
 
 The assistant runs as a single chat interface that handles three types of requests within one ongoing conversation:
